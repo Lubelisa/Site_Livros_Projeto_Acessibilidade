@@ -5,13 +5,35 @@ element.classList.toggle("dark-mode");
 
 }
 
-tamanho = 16;
+function inicialize(){
+
+    if (typeof(Storage) !== "undefined") {
+        if(!localStorage.tamanho)
+            localStorage.setItem("tamanho", 16);
+        else
+            tamanho = localStorage.getItem("tamanho");
+            document.body.style.fontSize=tamanho+"px";
+
+
+      } 
+}
+
+
+
+
 function diminuir(){
-  tamanho--;
-  document.body.style.fontSize=tamanho+"px";
+
+    tamanho = localStorage.getItem("tamanho");
+    tamanho--;
+    document.body.style.fontSize=tamanho+"px";
+    localStorage.setItem("tamanho", tamanho);
+
 }
 function aumentar(){
-  tamanho++;
-  document.body.style.fontSize=tamanho+"px";
+    tamanho = localStorage.getItem("tamanho");
+    tamanho++;
+    document.body.style.fontSize=tamanho+"px";
+    localStorage.setItem("tamanho", tamanho);
+
 }
     
