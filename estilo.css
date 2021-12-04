@@ -1,5 +1,20 @@
+.form-control{
+    font-size: 1em!important;
+}
+.form-select{
+    font-size: 1em!important;
+}
 .roxo {
     background: #690080;
+}
+
+.card-title{
+    font-size: 1.25em;
+}
+
+.text-center fs-1{
+    font-size: calc(1.375em + 1.5vw);
+    style="padding: 20px;
 }
 
 .branco {
@@ -16,6 +31,13 @@
 
 .card-special {
     background-size: 100% 100%;
+}
+
+
+.dark-mode {
+    background-color:#2d2d2d;
+    color:white;
+
 }
 
 .txt-roxo {
