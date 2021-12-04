@@ -20,7 +20,7 @@
 
 .text-center fs-1{
     font-size: calc(1.375em + 1.5vw);
-    style="padding: 20px;
+    padding: 20px;
 }
 
 .branco {
@@ -41,8 +41,8 @@
 
 
 .dark-mode {
-    background-color:#2d2d2d;
-    color:white;
+    background-color:#2d2d2d !important;
+    color:white !important;
 
 }
 
