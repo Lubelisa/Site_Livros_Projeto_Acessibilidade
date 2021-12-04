@@ -1,3 +1,6 @@
+.btn, .btn:hover, .btn:active, .btn:visited {
+    font-size: 1em!important;
+}
 .form-control{
     font-size: 1em!important;
 }
@@ -10,6 +13,9 @@
 
 .card-title{
     font-size: 1.25em;
+}
+.card-subtitle{
+    font-size: 1em;
 }
 
 .text-center fs-1{
