@@ -20,48 +20,42 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark branco fixed-top">
         <div class="container">
-            <a class="btn-roxo" href="index.html">
+            <a class="btn-roxo" role="button" href="index.html">
                 <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"/>
-                    </svg> Paginei
+                        <path d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"/>
+                        </svg> Paginei
             </a>
             <button class="navbar-toggler" style="color:#690080;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="fa fa-reorder"></span>
+                            <span class="fa fa-reorder"></span>
 
-            </button>
+                    </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <form class="d-flex">
-                            <input class="form-control form-control-sm me-2 is-valid" type="search" placeholder="Livro ou Autor" aria-label="Search">
+                            <input class="form-control form-control-sm me-2 is-valid" role="search" type="search" placeholder="Livro ou Autor" aria-label="Search">
                         </form>
                     </li>
                 </ul>
-                <a class="nav-item btn-roxo" href="home.html">Home</a>
-                <a class="nav-item btn-roxo" href="home.html">Minha estante</a>
-
-                <button class="btn btn-outline-success btn-light" onClick="handleClickChangeTheme();">Mudar contraste</button>
-                <button class="btn btn-outline-success btn-light" onClick="diminuir();">-</button>
-                <button class="btn btn-outline-success btn-light" onClick="aumentar();">+</button>
-
+                <a class="nav-item btn-roxo" role="button" href="#">Home</a>
+                <a class="nav-item btn-roxo" role="button" href="#">Minha estante</a>
+                <button class="btn btn-outline-success btn-light" role="button" onClick="handleClickChangeTheme();">Mudar contraste</button>
+                <button class="btn btn-outline-success btn-light" role="button" onClick="diminuir();">-</button>
+                <button class="btn btn-outline-success btn-light" role="button" onClick="aumentar();">+</button>
                 <a class="btn-roxo" href="#">
                     <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                        <g clip-path="url(#clip0)">
-                        <path d="M12 24C12.7956 24 13.5587 23.6839 14.1213 23.1213C14.6839 22.5587 15 21.7956 15 21H9C9 21.7956 9.31607 22.5587 9.87868 23.1213C10.4413 23.6839 11.2044 24 12 24ZM13.4925 1.6485C13.5134 1.43993 13.4904 1.22929 13.4249 1.03016C13.3595 0.831031 13.253 0.647835 13.1124 0.492387C12.9717 0.33694 12.8001 0.212692 12.6085 0.127657C12.4169 0.042622 12.2096 -0.00131226 12 -0.00131226C11.7904 -0.00131226 11.5831 0.042622 11.3915 0.127657C11.1999 0.212692 11.0283 0.33694 10.8876 0.492387C10.747 0.647835 10.6405 0.831031 10.5751 1.03016C10.5096 1.22929 10.4866 1.43993 10.5075 1.6485C8.81208 1.99335 7.28793 2.91354 6.19315 4.25325C5.09836 5.59296 4.50022 7.26986 4.5 9C4.5 10.647 3.75 18 1.5 19.5H22.5C20.25 18 19.5 10.647 19.5 9C19.5 5.37 16.92 2.34 13.4925 1.6485Z"/>
-                        </g>                        
-                    </svg>
+                            <g clip-path="url(#clip0)">
+                            <path d="M12 24C12.7956 24 13.5587 23.6839 14.1213 23.1213C14.6839 22.5587 15 21.7956 15 21H9C9 21.7956 9.31607 22.5587 9.87868 23.1213C10.4413 23.6839 11.2044 24 12 24ZM13.4925 1.6485C13.5134 1.43993 13.4904 1.22929 13.4249 1.03016C13.3595 0.831031 13.253 0.647835 13.1124 0.492387C12.9717 0.33694 12.8001 0.212692 12.6085 0.127657C12.4169 0.042622 12.2096 -0.00131226 12 -0.00131226C11.7904 -0.00131226 11.5831 0.042622 11.3915 0.127657C11.1999 0.212692 11.0283 0.33694 10.8876 0.492387C10.747 0.647835 10.6405 0.831031 10.5751 1.03016C10.5096 1.22929 10.4866 1.43993 10.5075 1.6485C8.81208 1.99335 7.28793 2.91354 6.19315 4.25325C5.09836 5.59296 4.50022 7.26986 4.5 9C4.5 10.647 3.75 18 1.5 19.5H22.5C20.25 18 19.5 10.647 19.5 9C19.5 5.37 16.92 2.34 13.4925 1.6485Z"/>
+                            </g>                        
+                        </svg>
                 </a>
 
                 <a class="nav-item btn-roxo dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                    Meu perfil
-                </a>
-                <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                        Meu perfil
+                    </a>
+                <ul class="dropdown-menu dropdown-menu-end " aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="medalhas.html">Minhas medalhas</a></li>
+                    <li><a class="dropdown-item" href="medalhas_amigo.html">Medalhas do amigo</a></li>
                 </ul>
             </div>
         </div>
@@ -111,18 +105,20 @@
                             Durante uma viagem de fim de semana, a filha mais nova de Mack Allen Phillips é raptada e evidências de que ela foi brutalmente assassinada são encontradas numa cabana abandonada. Após quatro anos vivendo numa tristeza profunda causada pela culpa e pela saudade da menina, Mack recebe um estranho bilhete, aparentemente escrito por Deus, convidando-o para voltar à cabana onde aconteceu a tragédia. Apesar de desconfiado, ele vai ao local do crime numa tarde de inverno e adentra passo a passo no cenário de seu mais terrível pesadelo. Mas o que ele encontra lá muda o seu destino para sempre. Em um mundo tão cruel e injusto, A cabana levanta um questionamento atemporal: se Deus é tão poderoso, por que não faz nada para amenizar o nosso sofrimento? As respostas que Mack encontra vão surpreender você e podem transformar sua vida de forma tão profunda quanto transformou a dele. Você vai querer partilhar este livro com todas as pessoas que ama.
                         </p>
                     </div>
-                    <div class="row">
 
-
+                    <div class="row" role="button">
                         <div class="col-md-auto">
-                            <a class="btn btn-outline-success" href="#" /> Lendo
-                            </a>
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-success" role="button" href="#" > Livro
+                                </a>
+                            </div>
                         </div>
                         <div class="col-md-auto">
-                            <a class="btn btn-outline-success" href="avaliarlivroCabana.html" /> Avaliar livro
-                            </a>
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-success" role="button" href="avaliarlivroCabana.html" > Avaliar
+                                </a>
+                            </div>
                         </div>
-
                     </div>
 
                 </div>
@@ -180,7 +176,7 @@
                             </div>
                         </div>
                         Esse livro é bem diferente dos demais, pois o formato de roteiro foca mais nos diálogos e não há descrição das cenas, etc. Isso torna a leitura bem mais dinâmica. Só acho que o livro poderia ser maior, pois o li em 4h. A história é bem envolvente também. Esperando saber se haverá o próximo livro.
-                        <a href="#">
+                        <a href="#" role="link">
                                 Continuar lendo
                             </a>
                     </div>
@@ -202,17 +198,17 @@
 
 
 
-    <nav class="navbar navbar-dark roxo">
+    <nav class="navbar navbar-dark roxo" role="contentinfo">
         <div class="container">
             <div>
-                <a class="navbar-item btn-branco" href="#">Contato</a>
-                <a class="navbar-item btn-branco" href="#">Privacidade e Cookies</a>
-                <a class="navbar-item btn-branco" href="#">Termos de uso</a>
-                <a class="navbar-item btn-branco" href="#">Acessibilidade</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Contato</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Privacidade e Cookies</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Termos de uso</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Acessibilidade</a>
             </div>
 
             <div>
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
                         <path
@@ -227,7 +223,7 @@
                 </svg>
                 </a>
 
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
                         <path
@@ -244,7 +240,7 @@
             </div>
 
             <div>
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"

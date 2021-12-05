@@ -104,4 +104,3 @@ function aumentar(){
     localStorage.setItem("tamanho", tamanho);
 
 }
-    

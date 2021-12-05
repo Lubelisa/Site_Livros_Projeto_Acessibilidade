@@ -34,7 +34,7 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <form class="d-flex">
-                            <input class="form-control form-control-sm me-2 is-valid" type="search" placeholder="Livro ou Autor" aria-label="Search">
+                            <input class="form-control form-control-sm me-2 is-valid" role="search" type="search" placeholder="Livro ou Autor" aria-label="Search">
                         </form>
                     </li>
                 </ul>
@@ -109,17 +109,20 @@
                         </p>
                     </div>
 
-                    <div class="row">
-
-
+                    <div class="row" role="button">
                         <div class="col-md-auto">
-                            <a class="btn btn-outline-success" role="button" href="#" > Lendo
-                            </a>
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-success" role="button" href="#" > Livro
+                                </a>
+                            </div>
                         </div>
                         <div class="col-md-auto">
-                            <a class="btn btn-outline-success" role="button" href="#" > Avaliar livro
-                            </a>
+                            <div class="d-flex justify-content-end">
+                                <a class="btn btn-outline-success" role="button" href="#" > Avaliar
+                                </a>
+                            </div>
                         </div>
+                        
 
                     </div>
 
@@ -195,7 +198,7 @@
                             </div>
                         </div>
                         Esse livro é bem diferente dos demais, pois o formato de roteiro foca mais nos diálogos e não há descrição das cenas, etc. Isso torna a leitura bem mais dinâmica. Só acho que o livro poderia ser maior, pois o li em 4h. A história é bem envolvente também. Esperando saber se haverá o próximo livro.
-                        <a href="#">
+                        <a href="#" role="link">
                                 Continuar lendo
                             </a>
                     </div>

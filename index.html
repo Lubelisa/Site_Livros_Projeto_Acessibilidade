@@ -22,7 +22,7 @@
 
     <nav class="navbar navbar-expand-lg navbar-dark roxo fixed-top">
         <div class="container">
-            <a class="btn-branco" href="#">
+            <a class="btn-branco" role="button" href="#">
                 <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
                     <path
                         d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"
@@ -32,7 +32,7 @@
 
 
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" role="button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
@@ -47,16 +47,16 @@
                 </ul>
 
 
-                <a class="nav-item btn-branco" href="#">Features</a>
-                <a class="nav-item btn-branco" href="#">Explorar</a>
-                <a class="nav-item btn-branco" href="home.html">Login</a>
-                <button class="btn btn-outline-success btn-light" onclick="handleClickChangeTheme()">Mudar contraste</button>
-                <button class="btn btn-outline-success btn-light"onClick="diminuir();">-</button>
-                <button class="btn btn-outline-success btn-light"onClick="aumentar();">+</button>
+                <a class="nav-item btn-branco" role="button" href="#">Features</a>
+                <a class="nav-item btn-branco" role="button" href="#">Explorar</a>
+                <a class="nav-item btn-branco" role="button" href="home.html">Login</a>
+                <button class="btn btn-outline-success btn-light" role="button" onclick="handleClickChangeTheme()">Mudar contraste</button>
+                <button class="btn btn-outline-success btn-light" role="button" onClick="diminuir();">-</button>
+                <button class="btn btn-outline-success btn-light" role="button" onClick="aumentar();">+</button>
 
          
 
-                <a class="btn btn-outline-success btn-light" href="cadastrar.html">
+                <a class="btn btn-outline-success btn-light" role="button" href="cadastrar.html">
                         Cadastrar
                     </a>
 
@@ -69,7 +69,7 @@
 
 
 
-    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="carousel">
+    <div id="carouselExampleIndicators" aria-roledescription="carousel" class="carousel slide " data-bs-ride="carousel">
         <div class="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -86,11 +86,11 @@
                 <img src="images/2019_03_02_66706_1551461528._large.jpg" class="d-block w-100" alt="Livro aberto sobre uma fileira de livros." height="400" />
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <button class="carousel-control-prev" role="button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
             </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <button class="carousel-control-next" role="button" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
             </button>
@@ -111,7 +111,7 @@
                 <div class="card mb-3 card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href="livroCabana.html"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
+                            <a href="livroCabana.html" role="link"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -127,7 +127,7 @@
                 <div class="card mb-3 card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href="livroCabana.html"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
+                            <a href="livroCabana.html" role="link"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -143,7 +143,7 @@
                 <div class="card mb-3 card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href="livroCabana.html"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
+                            <a href="livroCabana.html" role="link"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -161,7 +161,7 @@
                 <div class="card mb-3 card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <a href="livroCabana.html"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
+                            <a href="livroCabana.html" role="link"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
@@ -269,17 +269,17 @@
 
 
 
-    <nav class="navbar navbar-dark roxo">
+    <nav class="navbar navbar-dark roxo" role="contentinfo">
         <div class="container">
             <div>
-                <a class="navbar-item btn-branco" href="#">Contato</a>
-                <a class="navbar-item btn-branco" href="#">Privacidade e Cookies</a>
-                <a class="navbar-item btn-branco" href="#">Termos de uso</a>
-                <a class="navbar-item btn-branco" href="#">Acessibilidade</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Contato</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Privacidade e Cookies</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Termos de uso</a>
+                <a class="navbar-item btn-branco" role="button" href="#">Acessibilidade</a>
             </div>
 
             <div>
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
                         <path
@@ -294,7 +294,7 @@
                 </svg>
                 </a>
 
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="24" height="24" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <g clip-path="url(#clip0)">
                         <path
@@ -311,7 +311,7 @@
             </div>
 
             <div>
-                <a class="btn-branco" href="#">
+                <a class="btn-branco" role="button" href="#">
                     <svg width="25" height="25" viewBox="0 0 25 25" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"
