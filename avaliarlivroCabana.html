@@ -26,9 +26,10 @@
                     <path d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z"/>
                     </svg> Paginei
             </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <button class="navbar-toggler" style="color:#690080;" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="fa fa-reorder"></span>
+
+            </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
@@ -187,8 +188,8 @@
                             <div class="flex-grow-1 ms-3">
                                 <p>
                                     <b>
-                                            Nome user
-                                        </b> ação desse user
+                                            Nome usuário
+                                        </b> ação desse usuário
                                     <svg width="180" height="44" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                         <path d="M21.0489 12.9271C21.3483 12.0057 22.6517 12.0057 22.9511 12.9271L24.4697 17.6008C24.6035 18.0128 24.9875 18.2918 25.4207 18.2918H30.335C31.3037 18.2918 31.7065 19.5314 30.9228 20.1008L26.947 22.9894C26.5966 23.244 26.4499 23.6954 26.5838 24.1074L28.1024 28.7812C28.4017 29.7025 27.3472 30.4686 26.5635 29.8992L22.5878 27.0106C22.2373 26.756 21.7627 26.756 21.4122 27.0106L17.4365 29.8992C16.6528 30.4686 15.5983 29.7025 15.8976 28.7812L17.4162 24.1074C17.5501 23.6954 17.4034 23.244 17.053 22.9894L13.0772 20.1008C12.2935 19.5314 12.6963 18.2918 13.665 18.2918H18.5793C19.0125 18.2918 19.3965 18.0128 19.5303 17.6008L21.0489 12.9271Z" fill="#EDBC3E"/>
                                         <path d="M55.0489 12.9271C55.3483 12.0057 56.6517 12.0057 56.9511 12.9271L58.4697 17.6008C58.6035 18.0128 58.9875 18.2918 59.4207 18.2918H64.335C65.3037 18.2918 65.7065 19.5314 64.9228 20.1008L60.947 22.9894C60.5966 23.244 60.4499 23.6954 60.5838 24.1074L62.1024 28.7812C62.4017 29.7025 61.3472 30.4686 60.5635 29.8992L56.5878 27.0106C56.2373 26.756 55.7627 26.756 55.4122 27.0106L51.4365 29.8992C50.6528 30.4686 49.5983 29.7025 49.8976 28.7812L51.4162 24.1074C51.5501 23.6954 51.4034 23.244 51.053 22.9894L47.0772 20.1008C46.2935 19.5314 46.6963 18.2918 47.665 18.2918H52.5793C53.0125 18.2918 53.3965 18.0128 53.5303 17.6008L55.0489 12.9271Z" fill="#EDBC3E"/>
@@ -278,6 +279,16 @@
             </div>
         </div>
     </nav>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
 
 
 

@@ -1,3 +1,10 @@
+.vw-links .vw-tooltip.active > .vw-tooltip__item{
+    margin-top: 24px;
+    margin-left: -20px;
+    z-index: 100000!important;
+    position:relative!important;
+}
+
 .btn, .btn:hover, .btn:active, .btn:visited {
     font-size: 1em!important;
 }
@@ -151,3 +158,5 @@
     font-weight: bold;
     display: inline-block;
 }
+
+

@@ -1,8 +1,12 @@
 function changeTheme() {
-        
+
+    console.log("Setar");
+    console.log(localStorage.getItem("darkmode"));
+
     var element = document.body;
     element.classList.toggle("dark-mode");
-    const c = ['card-body','form-control','btn btn-outline-success btn-light','btn-roxo','cinza','branco','txt-roxo'];
+
+    const c = ['form-select','card-body','form-control','btn btn-outline-success btn-light','btn-roxo','cinza','branco','txt-roxo','col-md-8','col-md-4','progress','navbar-toggler'];
 
 
     for(var i=0;i<c.length;i++){
@@ -19,17 +23,7 @@ function changeTheme() {
 
 
 
-    var len = document.getElementsByClassName("form-select").length;
-    var element = document.getElementsByClassName("form-select");
-    
-    if(len>0){
-        for (var i=0; i<len; i++) {
-            console.log('entrei2');
 
-
-            element.classList.toggle("dark-mode");
-        }
-    }
 
    
 }
@@ -37,7 +31,9 @@ function handleClickChangeTheme(){
 
     changeTheme();  
 
-    console.log('entre');
+    console.log("Mudar");
+    console.log(localStorage.getItem("darkmode"));
+
     if(localStorage.getItem("darkmode")==="1"){
         localStorage.setItem("darkmode", 0);
     }
