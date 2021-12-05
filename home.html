@@ -38,6 +38,7 @@
                 </ul>
                 <a class="nav-item btn-roxo" href="#">Home</a>
                 <a class="nav-item btn-roxo" href="#">Minha estante</a>
+                <button class="btn btn-outline-success btn-light" onClick="handleClickChangeTheme();">Mudar contraste</button>
                 <button class="btn btn-outline-success btn-light"onClick="diminuir();">-</button>
                 <button class="btn btn-outline-success btn-light"onClick="aumentar();">+</button>
                 <a class="btn-roxo" href="#">
@@ -52,12 +53,8 @@
                         Meu perfil
                     </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <li><a class="dropdown-item" href="#">Action</a></li>
-                    <li><a class="dropdown-item" href="#">Another action</a></li>
-                    <li>
-                        <hr class="dropdown-divider">
-                    </li>
-                    <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    <li><a class="dropdown-item" href="medalhas.html">Minhas medalhas</a></li>
+                    <li><a class="dropdown-item" href="medalhas_amigo.html">Medalhas do amigo</a></li>
                 </ul>
             </div>
         </div>
@@ -65,7 +62,7 @@
 
     <br><br><br>
 
-    <div class="container">
+    <div class="container" style="margin-top: 2%;">
 
 
         <!-- Quando tiver em celular ele quebra os cartões em linhas, para quebrar um cartão por linha mudar para row-cols-1   -->
@@ -89,15 +86,15 @@
 
 
                     <div class="card mb-3" style="max-width: 540px;">
-                        <div class="row g-0">
+                        <div class="row g-0" onclick="">
                             <div class="col-md-4">
-                                <img src="images/hp.PNG" class="img-fluid rounded-start" alt="Capa do livro Harry Potter e a criança amaldiçoada. A capa é na maior parte alaranjada e está escrito o nome do livro; que o livro contém as partes um e dois da história; que o livro é baseado em uma história real de J.K. Rowling; os nomes de mais dois autores, John Tiffany e Jack Thorne; que o livro é uma nova peça de Jack Thorne; e o nome da editora no rodapé Rocco. No centro da capa um ninho de pássaro com asas e uma criança sentada dentro dele abraçando as pernas." />
+                                <a href="livro.html"><img src="images/hp.PNG" class="img-fluid rounded-start" alt="Capa do livro Harry Potter e a criança amaldiçoada. A capa é na maior parte alaranjada e está escrito o nome do livro; que o livro contém as partes um e dois da história; que o livro é baseado em uma história real de J.K. Rowling; os nomes de mais dois autores, John Tiffany e Jack Thorne; que o livro é uma nova peça de Jack Thorne; e o nome da editora no rodapé Rocco. No centro da capa um ninho de pássaro com asas e uma criança sentada dentro dele abraçando as pernas." /></a>
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Título do card</h5>
+                                    <p class="card-text">Este é um cartão mais amplo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+                                    <p class="card-text"><small class="text-muted">Última alteração 3mins atrás</small></p>
                                 </div>
                             </div>
                         </div>
@@ -108,14 +105,14 @@
                     <div class="card mb-3" style="max-width: 540px;">
                         <div class="row g-0">
                             <div class="col-md-4">
-                                <img src="images/hp.PNG" class="img-fluid rounded-start" alt="Capa do livro Harry Potter e a criança amaldiçoada. A capa é na maior parte alaranjada e está escrito o nome do livro; que o livro contém as partes um e dois da história; que o livro é baseado em uma história real de J.K. Rowling; os nomes de mais dois autores, John Tiffany e Jack Thorne; que o livro é uma nova peça de Jack Thorne; e o nome da editora no rodapé Rocco. No centro da capa um ninho de pássaro com asas e uma criança sentada dentro dele abraçando as pernas." />
+                                <a href="livro.html"><img src="images/hp.PNG" class="img-fluid rounded-start" alt="Capa do livro Harry Potter e a criança amaldiçoada. A capa é na maior parte alaranjada e está escrito o nome do livro; que o livro contém as partes um e dois da história; que o livro é baseado em uma história real de J.K. Rowling; os nomes de mais dois autores, John Tiffany e Jack Thorne; que o livro é uma nova peça de Jack Thorne; e o nome da editora no rodapé Rocco. No centro da capa um ninho de pássaro com asas e uma criança sentada dentro dele abraçando as pernas." /></a>
 
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
-                                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                    <h5 class="card-title">Título do card</h5>
+                                    <p class="card-text">Este é um cartão mais amplo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+                                    <p class="card-text"><small class="text-muted">Última alteração 3mins atrás</small></p>
                                 </div>
                             </div>
                         </div>
@@ -148,13 +145,13 @@
                 <div class="card mb-3 card">
                     <div class="row g-0">
                         <div class="col-md-4">
-                            <img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela.">
+                            <a href="livroCabana.html"><img src="images/cabana.PNG" class="img-fluid rounded-start" alt="Capa do livro A Cabana, com o título sendo o nome do livro e o seguinte subtítulo: 4 milhões de livros vendidos no Brasil. Além disso o nome do autor, William P Young, e da editora, Arqueiro, também estão escritos na capa. A imagem que ilustra a capa retrata um homem e uma mulher abraçados, ambos brancos e de cabelos escuros, virados de lado e olhando para a direita. Ao fundo vê-se uma cabana de madeira e uma floresta atrás dela."></a>
                         </div>
                         <div class="col-md-8">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
-                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                                <h5 class="card-title">Título do card</h5>
+                                <p class="card-text">Este é um cartão mais amplo com texto de apoio abaixo como uma introdução natural para conteúdo adicional. Este conteúdo é um pouco mais longo.</p>
+                                <p class="card-text"><small class="text-muted">Última alteração 3mins atrás</small></p>
                             </div>
                         </div>
                     </div>
