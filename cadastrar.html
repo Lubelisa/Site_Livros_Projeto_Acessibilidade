@@ -19,24 +19,26 @@
 
             <div>
                 <div class="float-start">
-                    <a class="navbar-brand" href="index.html">
-                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M12.5703 19.8641L11.5297 20.9047C11.0891 21.3453 10.3766 21.3453 9.94065 20.9047L0.828149 11.7969C0.387524 11.3562 0.387524 10.6437 0.828149 10.2078L9.94065 1.0953C10.3813 0.654675 11.0938 0.654675 11.5297 1.0953L12.5703 2.13593C13.0156 2.58124 13.0063 3.3078 12.5516 3.74374L6.90315 9.12499H20.375C20.9985 9.12499 21.5 9.62655 21.5 10.25V11.75C21.5 12.3734 20.9985 12.875 20.375 12.875H6.90315L12.5516 18.2562C13.011 18.6922 13.0203 19.4187 12.5703 19.8641Z" fill="#6C757D"/>
+                    <a class="navbar-brand"role = "button" href="index.html">
+                        <svg width="22" height="22" role="img" aria-labelledby = "voltarDisc" viewBox="0 0 22 22" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <title id="voltarDisc">Seta direcionada para esquerda</title>
+                            <path d="M12.5703 19.8641L11.5297 20.9047C11.0891 21.3453 10.3766 21.3453 9.94065 20.9047L0.828149 11.7969C0.387524 11.3562 0.387524 10.6437 0.828149 10.2078L9.94065 1.0953C10.3813 0.654675 11.0938 0.654675 11.5297 1.0953L12.5703 2.13593C13.0156 2.58124 13.0063 3.3078 12.5516 3.74374L6.90315 9.12499H20.375C20.9985 9.12499 21.5 9.62655 21.5 10.25V11.75C21.5 12.3734 20.9985 12.875 20.375 12.875H6.90315L12.5516 18.2562C13.011 18.6922 13.0203 19.4187 12.5703 19.8641Z" fill="#6C757D"/>
                         </svg>
                     </a>
                 </div>
 
                 <div class="d-flex justify-content-center">
-                    <a class="navbar-brand" href="index.html">
-                        <svg width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z" fill="#690080"/>
+                    <a class="navbar-brand" role= "button" href="index.html">
+                        <svg width="25" role="img" aria-labelledby = "pagineiDisc" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <title id="pagineiDisc">Livro aberto</title>
+                            <path d="M23.5339 2.77994C21.1554 2.91493 16.428 3.40625 13.5095 5.19271C13.3082 5.31597 13.194 5.53515 13.194 5.76432V21.5573C13.194 22.0586 13.7422 22.3754 14.2044 22.1428C17.207 20.6315 21.5495 20.2192 23.6966 20.1063C24.4297 20.0677 24.9996 19.48 24.9996 18.7756V4.11241C25 3.34375 24.3333 2.73481 23.5339 2.77994ZM11.49 5.19271C8.57205 3.40625 3.84462 2.91536 1.46615 2.77994C0.666667 2.73481 0 3.34375 0 4.11241V18.776C0 19.4809 0.569879 20.0686 1.30295 20.1068C3.45095 20.2196 7.79557 20.6324 10.7982 22.1445C11.2591 22.3767 11.8056 22.0603 11.8056 21.5603V5.75651C11.8056 5.52691 11.6918 5.3164 11.49 5.19271Z" fill="#690080"/>
                         </svg>
                         Paginei
                     </a>
                     <button class="btn btn-outline-success btn-light" role = "button" onclick="handleClickChangeTheme()">Mudar contraste</button>
 
-                    <button class="btn btn-outline-success btn-light" role = "button" onClick="diminuir();">-</button>
-                    <button class="btn btn-outline-success btn-light" role = "button"onClick="aumentar();">+</button>
+                    <button class="btn btn-outline-success btn-light" role = "button" onClick="diminuir();">Fonte -</button>
+                    <button class="btn btn-outline-success btn-light" role = "button"onClick="aumentar();">Fonte +</button>
                     
                 </div>
             </div>
@@ -69,7 +71,7 @@
 
                 <div style="max-width: 500px" role = "form">
                     <div class="mb-3">
-                        <label for="formGroupExampleInput" class="form-label">Exemplo label</label>
+                        <label for="formGroupExampleInput" class="form-label">Exemplo campo</label>
                         <input type="text" role = "textbox" class="form-control" id="formGroupExampleInput" placeholder="Exemplo placeholder">
                     </div>
                     <div class="mb-3">
@@ -114,7 +116,7 @@
                         <input class="form-check-input" role="checkbox"
                         aria-checked="false" type="checkbox" value="" id="flexCheckDefault">
                         <label class="form-check-label" for="flexCheckDefault">
-                            Checkbox padrão
+                            Caixa de seleção padrão
                         </label>
                     </div>
                     <br>

@@ -5,7 +5,7 @@ function changeTheme() {
     var element = document.body;
     element.classList.toggle("dark-mode");
 
-    const c = ['form-select','card-body','form-control','btn btn-outline-success btn-light','btn-roxo','cinza','branco','txt-roxo','col-md-8','col-md-4','progress','navbar-toggler'];
+    const c = ['form-select','card-body','form-control','btn btn-outline-success btn-light','btn-roxo','cinza','branco','txt-roxo','col-md-8','col-md-4','progress','navbar-toggler','img-fill'];
 
 
     for(var i=0;i<c.length;i++){
@@ -58,14 +58,14 @@ function inicializeMode(){
 
 
     if (typeof(Storage) !== "undefined") {
-        alert(localStorage.getItem("darkmode"));
+        // alert(localStorage.getItem("darkmode"));
         if(!localStorage.darkmode){
             localStorage.setItem("darkmode", 0);
         }
             
         else{
             darkmode = localStorage.getItem("darkmode");
-            alert(darkmode);
+            // alert(darkmode);
             if(darkmode==="1"){
                 changeTheme();
             }
