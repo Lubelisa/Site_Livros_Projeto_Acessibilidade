@@ -8,3 +8,7 @@ Fabiana Dalacqua Mendes             9894536
 Luíza Pereira Pinto Machado         7564426
 Marina Fontes Alcântara Machado     10692040
 ```
+
+## Instruções:
+
+- Rodar o arquivo **index.html** no navegador. As outras páginas podem ser acessadas através dele.

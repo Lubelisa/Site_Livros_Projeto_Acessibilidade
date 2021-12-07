@@ -7,7 +7,7 @@
     <script src="Plugins/jquery-3.6.0.min.js" type="text/javascript"></script>
     <!-- CSS only -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -35,15 +35,15 @@
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
                         <form class="d-flex">
-                            <input class="form-control form-control-sm me-2 is-valid" role = "textbox" type="search" placeholder="Livro ou Autor" aria-label="Search">
+                            <input class="form-control form-control-sm me-2 is-valid" role ="searchbox" type="search" placeholder="Livro ou Autor" aria-label="Search">
                         </form>
                     </li>
                 </ul>
                 <a class="nav-item btn-roxo" href="home.html">Home</a>
                 <a class="nav-item btn-roxo" href="home.html">Minha estante</a>
                 <button class="btn btn-outline-success btn-light" onClick="handleClickChangeTheme()">Mudar contraste</button>
-                <button class="btn btn-outline-success btn-light"onClick="diminuir();">Fonte -</button>
-                <button class="btn btn-outline-success btn-light"onClick="aumentar();">Fonte +</button>
+                <button class="btn btn-outline-success btn-light" onClick="diminuir();">Fonte -</button>
+                <button class="btn btn-outline-success btn-light" onClick="aumentar();">Fonte +</button>
                 <a class="btn-roxo"  role="button" href="#">
                     <svg width="24" height="24" role = "img" aria-labelledby = "hamburguerDisc"  viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
                         <title id="hamburguerDisc">Ícone conhecido como hamburguer para abrir o menu</title>
@@ -65,7 +65,7 @@
     </nav>
     <br><br><br>
 
-    <div class="detalhes" role="button">
+    <div class="detalhes">
 
         <div class="d-flex justify-content-center">
             <div class="row">
@@ -77,10 +77,10 @@
                     <h4 class="card-title"><b>A Cabana</b></h4>
                     <h5 class="card-subtitle">William P. Young</h5>
 
-                    <svg width="249" height="24" role="img" aria-labelledby="EstrelasDisc"viewBox="0 0 249 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg width="249" height="24" role="img" aria-labelledby="EstrelasDisc" viewBox="0 0 249 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <title id="EstrelasDisc">Nota 4,9; 5 estrelas amarelas; 2357 avaliações .</title>
 
-                        <path class = "img-fill"d="M7.45312 13.2188H8.74219V15.0391H7.45312V17.5H5.19531V15.0391H0.53125L0.429688 13.6172L5.17188 6.125H7.45312V13.2188ZM2.67969 13.2188H5.19531V9.20312L5.04688 9.46094L2.67969 13.2188ZM10.6406 20.3516L9.46094 19.7344L9.74219 19.2266C10.0911 18.5911 10.2708 17.9583 10.2812 17.3281V15.5781H12.1875L12.1797 17.1406C12.1745 17.7188 12.0286 18.3021 11.7422 18.8906C11.4557 19.4792 11.0885 19.9661 10.6406 20.3516ZM19.1484 12.9531C18.5599 13.5312 17.8724 13.8203 17.0859 13.8203C16.0807 13.8203 15.276 13.4766 14.6719 12.7891C14.0677 12.0964 13.7656 11.1641 13.7656 9.99219C13.7656 9.2474 13.9271 8.5651 14.25 7.94531C14.5781 7.32031 15.0339 6.83594 15.6172 6.49219C16.2005 6.14323 16.8568 5.96875 17.5859 5.96875C18.3359 5.96875 19.0026 6.15625 19.5859 6.53125C20.1693 6.90625 20.6224 7.44531 20.9453 8.14844C21.2682 8.85156 21.4323 9.65625 21.4375 10.5625V11.3984C21.4375 13.2943 20.9661 14.7839 20.0234 15.8672C19.0807 16.9505 17.7448 17.5286 16.0156 17.6016L15.4609 17.6094V15.7266L15.9609 15.7188C17.9245 15.6302 18.987 14.7083 19.1484 12.9531ZM17.6406 12.0938C18.0052 12.0938 18.3177 12 18.5781 11.8125C18.8438 11.625 19.0443 11.3984 19.1797 11.1328V10.2031C19.1797 9.4375 19.0339 8.84375 18.7422 8.42188C18.4505 8 18.0599 7.78906 17.5703 7.78906C17.1172 7.78906 16.7448 7.9974 16.4531 8.41406C16.1615 8.82552 16.0156 9.34375 16.0156 9.96875C16.0156 10.5885 16.1562 11.099 16.4375 11.5C16.724 11.8958 17.125 12.0938 17.6406 12.0938Z" fill="#343A40"/>
+                        <path class = "img-fill" d="M7.45312 13.2188H8.74219V15.0391H7.45312V17.5H5.19531V15.0391H0.53125L0.429688 13.6172L5.17188 6.125H7.45312V13.2188ZM2.67969 13.2188H5.19531V9.20312L5.04688 9.46094L2.67969 13.2188ZM10.6406 20.3516L9.46094 19.7344L9.74219 19.2266C10.0911 18.5911 10.2708 17.9583 10.2812 17.3281V15.5781H12.1875L12.1797 17.1406C12.1745 17.7188 12.0286 18.3021 11.7422 18.8906C11.4557 19.4792 11.0885 19.9661 10.6406 20.3516ZM19.1484 12.9531C18.5599 13.5312 17.8724 13.8203 17.0859 13.8203C16.0807 13.8203 15.276 13.4766 14.6719 12.7891C14.0677 12.0964 13.7656 11.1641 13.7656 9.99219C13.7656 9.2474 13.9271 8.5651 14.25 7.94531C14.5781 7.32031 15.0339 6.83594 15.6172 6.49219C16.2005 6.14323 16.8568 5.96875 17.5859 5.96875C18.3359 5.96875 19.0026 6.15625 19.5859 6.53125C20.1693 6.90625 20.6224 7.44531 20.9453 8.14844C21.2682 8.85156 21.4323 9.65625 21.4375 10.5625V11.3984C21.4375 13.2943 20.9661 14.7839 20.0234 15.8672C19.0807 16.9505 17.7448 17.5286 16.0156 17.6016L15.4609 17.6094V15.7266L15.9609 15.7188C17.9245 15.6302 18.987 14.7083 19.1484 12.9531ZM17.6406 12.0938C18.0052 12.0938 18.3177 12 18.5781 11.8125C18.8438 11.625 19.0443 11.3984 19.1797 11.1328V10.2031C19.1797 9.4375 19.0339 8.84375 18.7422 8.42188C18.4505 8 18.0599 7.78906 17.5703 7.78906C17.1172 7.78906 16.7448 7.9974 16.4531 8.41406C16.1615 8.82552 16.0156 9.34375 16.0156 9.96875C16.0156 10.5885 16.1562 11.099 16.4375 11.5C16.724 11.8958 17.125 12.0938 17.6406 12.0938Z" fill="#343A40"/>
                         <path d="M37.0489 2.92705C37.3483 2.00574 38.6517 2.00574 38.9511 2.92705L40.4697 7.60081C40.6035 8.01284 40.9875 8.2918 41.4207 8.2918H46.335C47.3037 8.2918 47.7065 9.53141 46.9228 10.1008L42.947 12.9894C42.5966 13.244 42.4499 13.6954 42.5838 14.1074L44.1024 18.7812C44.4017 19.7025 43.3472 20.4686 42.5635 19.8992L38.5878 17.0106C38.2373 16.756 37.7627 16.756 37.4122 17.0106L33.4365 19.8992C32.6528 20.4686 31.5983 19.7025 31.8976 18.7812L33.4162 14.1074C33.5501 13.6954 33.4034 13.244 33.053 12.9894L29.0772 10.1008C28.2935 9.53141 28.6963 8.2918 29.665 8.2918H34.5793C35.0125 8.2918 35.3965 8.01284 35.5303 7.60081L37.0489 2.92705Z" fill="#EDBC3E"/>
                         <path d="M61.0489 2.92705C61.3483 2.00574 62.6517 2.00574 62.9511 2.92705L64.4697 7.60081C64.6035 8.01284 64.9875 8.2918 65.4207 8.2918H70.335C71.3037 8.2918 71.7065 9.53141 70.9228 10.1008L66.947 12.9894C66.5966 13.244 66.4499 13.6954 66.5838 14.1074L68.1024 18.7812C68.4017 19.7025 67.3472 20.4686 66.5635 19.8992L62.5878 17.0106C62.2373 16.756 61.7627 16.756 61.4122 17.0106L57.4365 19.8992C56.6528 20.4686 55.5983 19.7025 55.8976 18.7812L57.4162 14.1074C57.5501 13.6954 57.4034 13.244 57.053 12.9894L53.0772 10.1008C52.2935 9.53141 52.6963 8.2918 53.665 8.2918H58.5793C59.0125 8.2918 59.3965 8.01284 59.5303 7.60081L61.0489 2.92705Z" fill="#EDBC3E"/>
                         <path d="M85.0489 2.92705C85.3483 2.00574 86.6517 2.00574 86.9511 2.92705L88.4697 7.60081C88.6035 8.01284 88.9875 8.2918 89.4207 8.2918H94.335C95.3037 8.2918 95.7065 9.53141 94.9228 10.1008L90.947 12.9894C90.5966 13.244 90.4499 13.6954 90.5838 14.1074L92.1024 18.7812C92.4017 19.7025 91.3472 20.4686 90.5635 19.8992L86.5878 17.0106C86.2373 16.756 85.7627 16.756 85.4122 17.0106L81.4365 19.8992C80.6528 20.4686 79.5983 19.7025 79.8976 18.7812L81.4162 14.1074C81.5501 13.6954 81.4034 13.244 81.053 12.9894L77.0772 10.1008C76.2935 9.53141 76.6963 8.2918 77.665 8.2918H82.5793C83.0125 8.2918 83.3965 8.01284 83.5303 7.60081L85.0489 2.92705Z" fill="#EDBC3E"/>
@@ -104,7 +104,7 @@
                         <div class="col txt-roxo">45</div>
                     </div>
 
-                    <div class="row" role="text" aria-valuetext="textarea" aria-hidden="false">
+                    <div class="row">
                         <p> Durante uma viagem de fim de semana, a filha mais nova de Mack Allen Phillips é raptada e evidências de que ela foi brutalmente assassinada são encontradas numa cabana abandonada. Após quatro anos vivendo numa tristeza profunda causada pela culpa e pela saudade da menina, Mack recebe um estranho bilhete, aparentemente escrito por Deus, convidando-o para voltar à cabana onde aconteceu a tragédia. Apesar de desconfiado, ele vai ao local do crime numa tarde de inverno e adentra passo a passo no cenário de seu mais terrível pesadelo. Mas o que ele encontra lá muda o seu destino para sempre. Em um mundo tão cruel e injusto, A cabana levanta um questionamento atemporal: se Deus é tão poderoso, por que não faz nada para amenizar o nosso sofrimento? As respostas que Mack encontra vão surpreender você e podem transformar sua vida de forma tão profunda quanto transformou a dele. Você vai querer partilhar este livro com todas as pessoas que ama.<br>
                         </p>
                     </div>
@@ -146,7 +146,7 @@
                 <div class="branco" style="max-width: 540px; padding: 12px;">
 
                     <p><b>Dê uma nota de 1 a 5 para o livro
-                                <svg width="180" height="44" role="img" aria-labelledby="EstrelasDisc2"viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <svg width="180" height="44" role="img" aria-labelledby="EstrelasDisc2" viewBox="0 0 180 44" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <title id="EstrelasDisc2">4 estrelas preenchidas com amarelo e 1 não preenchida .</title>
 
                                 <path d="M21.0489 12.9271C21.3483 12.0057 22.6517 12.0057 22.9511 12.9271L24.4697 17.6008C24.6035 18.0128 24.9875 18.2918 25.4207 18.2918H30.335C31.3037 18.2918 31.7065 19.5314 30.9228 20.1008L26.947 22.9894C26.5966 23.244 26.4499 23.6954 26.5838 24.1074L28.1024 28.7812C28.4017 29.7025 27.3472 30.4686 26.5635 29.8992L22.5878 27.0106C22.2373 26.756 21.7627 26.756 21.4122 27.0106L17.4365 29.8992C16.6528 30.4686 15.5983 29.7025 15.8976 28.7812L17.4162 24.1074C17.5501 23.6954 17.4034 23.244 17.053 22.9894L13.0772 20.1008C12.2935 19.5314 12.6963 18.2918 13.665 18.2918H18.5793C19.0125 18.2918 19.3965 18.0128 19.5303 17.6008L21.0489 12.9271Z" fill="#EDBC3E"/>
@@ -255,13 +255,13 @@
                     <svg width="24" height="24"  role="img" aria-labelledby="FaceDescr" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                     <title id="FaceDescr">Logo do facebook, simbolizado pela letra F.</title>
 
-                        <g clip-path="url(#clip0)">
+                        <g clip-path="url(#clip1)">
                         <path
                             d="M5.84301 0C2.60624 0 0 2.60624 0 5.84301V26.157C0 29.3938 2.60624 32 5.84301 32H16.853V19.49H13.545V14.986H16.853V11.138C16.853 8.11482 18.8076 5.33901 23.31 5.33901C25.133 5.33901 26.481 5.51402 26.481 5.51402L26.375 9.72003C26.375 9.72003 25.0002 9.70704 23.5 9.70704C21.8764 9.70704 21.616 10.4551 21.616 11.6971V14.986H26.504L26.291 19.49H21.616V32.0001H26.157C29.3938 32.0001 32 29.3938 32 26.1571V5.84304C32 2.60627 29.3938 3.2e-05 26.157 3.2e-05H5.84298L5.84301 0Z"
                             />
                     </g>
                     <defs>
-                        <clipPath id="clip0">
+                        <clipPath id="clip1">
                             <rect width="32" height="32" fill="white" />
                         </clipPath>
                     </defs>
