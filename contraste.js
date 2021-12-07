@@ -1,5 +1,4 @@
 function changeTheme() {
-
     console.log("Setar");
     console.log(localStorage.getItem("darkmode"));
 
@@ -20,17 +19,9 @@ function changeTheme() {
             }
         }
     }
-
-
-
-
-
-   
 }
+
 function handleClickChangeTheme(){
-
-    changeTheme();  
-
     console.log("Mudar");
     console.log(localStorage.getItem("darkmode"));
 
@@ -40,6 +31,8 @@ function handleClickChangeTheme(){
     else{
         localStorage.setItem("darkmode", 1);
     }
+
+     changeTheme();  
    
 }
 
@@ -51,7 +44,6 @@ function inicialize(){
 
 function inicializeFontSize(){
 
-
     if (typeof(Storage) !== "undefined") {
         if(!localStorage.tamanho)
             localStorage.setItem("tamanho", 16);
@@ -59,34 +51,27 @@ function inicializeFontSize(){
             tamanho = localStorage.getItem("tamanho");
             document.body.style.fontSize=tamanho+"px";
         }
-
-      } 
+    } 
 }
 
 function inicializeMode(){
 
 
     if (typeof(Storage) !== "undefined") {
+        alert(localStorage.getItem("darkmode"));
         if(!localStorage.darkmode){
             localStorage.setItem("darkmode", 0);
-            console.log('aqui');
-
         }
             
         else{
             darkmode = localStorage.getItem("darkmode");
-            
+            alert(darkmode);
             if(darkmode==="1"){
                 changeTheme();
             }
-
-
-        }
-           
-      } 
+        }    
+    } 
 }
-
-
 
 
 function diminuir(){
@@ -97,6 +82,7 @@ function diminuir(){
     localStorage.setItem("tamanho", tamanho);
 
 }
+
 function aumentar(){
     tamanho = localStorage.getItem("tamanho");
     tamanho++;
