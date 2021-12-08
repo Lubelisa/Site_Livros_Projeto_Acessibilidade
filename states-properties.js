@@ -17,3 +17,22 @@ $('select').change(function() {
     }
   }
 });
+
+$('select').on({    
+  'change': function() {
+    $(this).blur();
+  },
+
+  'focus': function() {
+    this.setAttribute('aria-expanded', "true");
+  },
+
+  'blur': function() {
+    this.setAttribute('aria-expanded', "false");
+  },
+
+  'keyup': function(e) {
+    if (e.keyCode == 27)
+      this.setAttribute('aria-expanded', "true");
+  }
+});
