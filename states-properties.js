@@ -7,7 +7,7 @@ $('input[role="checkbox"]').change(function() {
     }
 });
 
-$('select[role="listbox"]').change(function() {
+$('select').change(function() {
   for (var i = 0; i < this.options.length; i++) {
     if(i == this.selectedIndex) {
       this.options[i].setAttribute('aria-selected', "true");
