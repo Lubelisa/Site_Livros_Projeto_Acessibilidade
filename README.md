@@ -12,3 +12,5 @@ Marina Fontes Alcântara Machado     10692040
 ## Instruções:
 
 - Rodar o arquivo **index.html** no navegador. As outras páginas podem ser acessadas através dele.
+
+- Para acessar no GitHub Pages, só acessar o link no navegador: https://lubelisa.github.io/Site_Livros_Projeto_Acessibilidade/
